@@ -1,0 +1,38 @@
+.produto__box{
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin:1rem 1rem 10px 0 ;
+    min-height: 264.54px;
+    position: relative;
+    width: 15%;
+}
+
+@media screen and (min-width:769px){
+    .produto__box{
+        min-width: 170px;
+    }
+}
+
+@media screen and (max-width:769px){
+    .produto__box:nth-child(5){
+        display: none;
+    }
+    .produto__box:nth-child(6){
+        display: none;
+    }
+    .produto__box{
+        width: 160px;
+        margin-right: 10px;
+    }
+}
+
+@media screen and (max-width:365px){
+    .produto__box{
+        width: 45%;
+        justify-content: none;
+    }
+}
+
+

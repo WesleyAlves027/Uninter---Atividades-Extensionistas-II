@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hope Store</title>
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./assets/css/cabecalho/cabecalho.css">
+    <link rel="stylesheet" href="./assets/css/cabecalho/cabecalho-logo.css">
+    <link rel="stylesheet" href="./assets/css/cabecalho/cabecalho-div-logo-pesquisar.css">
+    <link rel="stylesheet" href="./assets/css/cabecalho/cabecalho-pesquisar.css">
+    <link rel="stylesheet" href="./assets/css/cabecalho/cabecalho-botaoLogin.css">
+    <link rel="stylesheet" href="./assets/css/cabecalho/cabecalho-botao-menuAdm.css">
+    <link rel="stylesheet" href="./assets/css/cabecalho/cabecalho-pesquisar-mobile.css">
+
+    <link rel="stylesheet" href="./assets/css/banner/banner.css">
+    <link rel="stylesheet" href="./assets/css/banner/banner-imagem.css">
+    <link rel="stylesheet" href="./assets/css/banner/banner-div-informacao.css">
+    <link rel="stylesheet" href="./assets/css/banner/banner-titulo.css">
+    <link rel="stylesheet" href="./assets/css/banner/banner-subtitulo.css">
+    <link rel="stylesheet" href="./assets/css/banner/banner-botao.css">
+
+    <link rel="stylesheet" href="./assets/css/container-produtos.css">
+    <link rel="stylesheet" href="./assets/css/produto-div-topo/produto-div-topo.css">
+    <link rel="stylesheet" href="./assets/css/produto-div-topo/produto-verMais.css">
+    <link rel="stylesheet" href="./assets/css/produto/produto-titulo.css">
+    <link rel="stylesheet" href="./assets/css/produto/produto-conteudo.css">
+    <link rel="stylesheet" href="./assets/css/produto/produto-verTudo.css">
+    <link rel="stylesheet" href="./assets/css/produto/produto-box.css">
+    <link rel="stylesheet" href="./assets/css/produto/produto-imagem.css">
+    <link rel="stylesheet" href="./assets/css/produto/produto-descricao.css">
+    <link rel="stylesheet" href="./assets/css/produto/produto-preco.css">
+    <link rel="stylesheet" href="./assets/css/produto/produto-visualizar.css">
+
+    <link rel="stylesheet" href="./assets/css/container-informacoes.css">
+    <link rel="stylesheet" href="./assets/css/informacoes-div-logoElink/informacoes-div-logoElink.css">
+    <link rel="stylesheet" href="./assets/css/informacoes-div-logoElink/informacoes-logo.css">
+    <link rel="stylesheet" href="./assets/css/informacoes-div-logoElink/informacoes-link.css">
+    <link rel="stylesheet" href="./assets/css/informacoes-div-logoElink/informacoes-link-iten.css">
+    <link rel="stylesheet" href="./assets/css/informacoes-div-contato/informacoes-div-contato.css">
+    <link rel="stylesheet" href="./assets/css/informacoes-div-contato/contato-titulo.css">
+    <link rel="stylesheet" href="./assets/css/informacoes-div-contato/input-contato.css">
+    <link rel="stylesheet" href="./assets/css/informacoes-div-contato/contato-nome.css">
+    <link rel="stylesheet" href="./assets/css/informacoes-div-contato/contato-mensagem.css">
+    <link rel="stylesheet" href="./assets/css/informacoes-div-contato/contato-botaoEnviar.css">
+
+    <link rel="stylesheet" href="./assets/css/rodape.css">
+
+    <link rel="stylesheet" href="./assets/css/container-login.css">
+    <link rel="stylesheet" href="./assets/css/form-login/form-login.css">
+    <link rel="stylesheet" href="./assets/css/form-login/form-login-titulo.css">
+    <link rel="stylesheet" href="./assets/css/form-login/form-login-input-email.css">
+    <link rel="stylesheet" href="./assets/css/form-login/form-login-input-senha.css">
+    <link rel="stylesheet" href="./assets/css/form-login/form-login-button-entrar.css">
+
+    <link rel="stylesheet" href="./assets/css/container-adicionarProduto.css">
+    <link rel="stylesheet" href="./assets/css/form-adicionarProduto/form-adicionarProduto.css">
+    <link rel="stylesheet" href="./assets/css/form-adicionarProduto/form-adicionarProduto-titulo.css">
+    <link rel="stylesheet" href="./assets/css/form-adicionarProduto/input-adicionarProduto.css">
+    <link rel="stylesheet" href="./assets/css/form-adicionarProduto/form-adicionarProduto-imagem.css">
+    <link rel="stylesheet" href="./assets/css/form-adicionarProduto/form-adicionarProduto-nome.css">
+    <link rel="stylesheet" href="./assets/css/form-adicionarProduto/form-adicionarProduto-categoria.css">
+    <link rel="stylesheet" href="./assets/css/form-adicionarProduto/form-adicionarProduto-preco.css">
+    <link rel="stylesheet" href="./assets/css/form-adicionarProduto/form-adicionarProduto-descricao.css">
+    <link rel="stylesheet" href="./assets/css/form-adicionarProduto/form-adicionarProduto-enviar.css">
+
+    <link rel="stylesheet" href="./assets/css/container-adm.css">
+    <link rel="stylesheet" href="./assets/css/adm-topo/adm-topo.css">
+    <link rel="stylesheet" href="./assets/css/adm-topo/adm-topo-titulo.css">
+    <link rel="stylesheet" href="./assets/css/adm-topo/adm-topo-button-adicionarProduto.css">
+
+    <link rel="stylesheet" href="./assets/css/menu-editar-produto/menu-editar-produto.css">
+    <link rel="stylesheet" href="./assets/css/menu-editar-produto/menu-buttons.css">
+    <link rel="stylesheet" href="./assets/css/menu-editar-produto/menu-editar-button.css">
+    <link rel="stylesheet" href="./assets/css/whats.css">
+
+</head>
+<body>
+    <!-- Botão Flutuante do WhatsApp -->
+    <a href="https://wa.me/5527996192746?text=Olá!%20Vim%20pelo%20site%20e%20gostaria%20de%20saber%20mais%20sobre%20os%20produtos." 
+        class="whatsapp-float" 
+        target="_blank" 
+        rel="noopener noreferrer"
+        title="Fale conosco no WhatsApp">
+        <!-- Ícone SVG simples do WhatsApp -->
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="28" height="28" fill="#fff">
+            <path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.6 66.6 14 10.6-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"/>
+        </svg>
+    </a>
+    <header class="cabecalho">
+        <section class="cabecalho__div__logo__pesquisar">
+            <input class="cabecalho__pesquisar" type="text" placeholder="O que desejar encontrar?">
+        </section>
+            <button  class="cabecalho__botao-login">Login</button>
+            <button  class="cabecalho__botao__menuAdm ocultar">Menu Administrador</button>
+            <input class="cabecalho__pesquisar__mobile">
+    </header>
+    <main class="container">
+        <section class="banner">
+            <div class="banner__imagem">
+                <div class="banner__div__informacao">
+                    <h2 class="banner__titulo">Junho Promocional</h2>
+                    <h3 class="banner__subtitulo">Produtos selecionados com 33% de desconto</h3>
+                    <a class="banner__botao" href="#titulo__console">Ver produtos</a>
+                </div>
+            </div>
+        </section>
+        <section class="container__produtos">
+            <section class="container__adm ocultar">
+                <div class="adm__topo">
+                    <h2 class="adm__topo__titulo">Todos os produtos</h2>
+                    <button class="adm__topo__button__adicionarProduto">Adicionar Produto</button>
+                </div>
+            </section>
+            <section class="container__mangas">
+                <div id="titulo__manga" class="produto__div__topo">
+                    <h2 class="produto__titulo">Moda Praia</h2>
+                    <button class="produto__ver-tudo" id="produto__mangas__ver-tudo">Ver tudo <img src="./assets/imagens/vector.png"></button>
+                </div>
+                <section class="produto__conteudo produto__manga">
+                    <div class="produto__box">
+                        <div class="menu__editar__produto ocultar">
+                            <div class="menu__buttons">
+                                <button class="menu__editar__button"><img src="./assets/imagens/apagar-produto.png"></button>
+                                <button class="menu__editar__button"><img src="./assets/imagens/editar-produto.png"></button>
+                            </div>
+                        </div>
+                        <img class="produto__imagem" src="assets/imagens/biquini.jpg"
+                        <p class="produto__descricao">Biquíni</p>
+                        <p class="produto__preco">R$ 40,00</p>
+                        <button class="produto__visualizar">Ver Produto</button>
+                    </div>
+                    <div class="produto__box">
+                        <div class="menu__editar__produto ocultar">
+                            <div class="menu__buttons">
+                                <button class="menu__editar__button"><img src="./assets/imagens/apagar-produto.png"></button>
+                                <button class="menu__editar__button"><img src="./assets/imagens/editar-produto.png"></button>
+                            </div>
+                        </div>
+                        <img class="produto__imagem" src="assets/imagens/canga.jpg" alt="manga Berserk Volume 1">
+                        <p class="produto__descricao">Canga</p>
+                        <p class="produto__preco">R$ 50,00</p>
+                        <button class="produto__visualizar">Ver Produto</button>
+                    </div>
+                    <div class="produto__box">
+                        <div class="menu__editar__produto ocultar">
+                            <div class="menu__buttons">
+                                <button class="menu__editar__button"><img src="./assets/imagens/apagar-produto.png"></button>
+                                <button class="menu__editar__button"><img src="./assets/imagens/editar-produto.png"></button>
+                            </div>
+                        </div>
+                        <img class="produto__imagem" src="assets/imagens/chapeu_de_praia.webp">
+                        <p class="produto__descricao">Chapéu de praia</p>
+                        <p class="produto__preco">R$ 57,00</p>
+                        <button class="produto__visualizar">Ver Produto</button>
+                    </div>
+                    <div class="produto__box">
+                        <div class="menu__editar__produto ocultar">
+                            <div class="menu__buttons">
+                                <button class="menu__editar__button"><img src="./assets/imagens/apagar-produto.png"></button>
+                                <button class="menu__editar__button"><img src="./assets/imagens/editar-produto.png"></button>
+                            </div>
+                        </div>
+                        <img class="produto__imagem" src="assets/imagens/vestido de praia.webp">
+                        <p class="produto__descricao">Vestido de Praia</p>
+                        <p class="produto__preco">R$ 60,00</p>
+                        <button class="produto__visualizar">Ver Produto</button>
+                    </div>
+                    <div class="produto__box">
+                        <div class="menu__editar__produto ocultar">
+                            <div class="menu__buttons">
+                                <button class="menu__editar__button"><img src="./assets/imagens/apagar-produto.png"></button>
+                                <button class="menu__editar__button"><img src="./assets/imagens/editar-produto.png"></button>
+                            </div>
+                        </div>
+                        <img class="produto__imagem" src="assets/imagens/toalha de praia.webp">
+                        <p class="produto__descricao">Toalha de Praia</p>
+                        <p class="produto__preco">R$ 25,00</p>
+                        <button class="produto__visualizar">Ver Produto</button>
+                    </div>
+                    <div class="produto__box">
+                        <div class="menu__editar__produto ocultar">
+                            <div class="menu__buttons">
+                                <button class="menu__editar__button"><img src="./assets/imagens/apagar-produto.png"></button>
+                                <button class="menu__editar__button"><img src="./assets/imagens/editar-produto.png"></button>
+                            </div>
+                        </div>
+                        <img class="produto__imagem" src="assets/imagens/conjunto crochê.webp">
+                        <p class="produto__descricao">Conjunto crochê</p>
+                        <p class="produto__preco">R$ 150,00</p>
+                        <button class="produto__visualizar">Ver Produto</button>
+                    </div>
+                </section>
+            </section>
+            <section class="container__consoles">
+                <div id="titulo__console" class="produto__div__topo">
+                    <h2 class="produto__titulo">Blusas</h2>
+                    <button class="produto__ver-tudo" id="produto__consoles__ver-tudo">Ver tudo <img src="./assets/imagens/vector.png"></button>
+                </div>
+                <section class="produto__conteudo produto__console">
+                    <div class="produto__box">
+                          <div class="menu__editar__produto ocultar">
+                            <div class="menu__buttons">
+                                <button class="menu__editar__button"><img src="./assets/imagens/apagar-produto.png"></button>
+                                <button class="menu__editar__button"><img src="./assets/imagens/editar-produto.png"></button>
+                            </div>
+                        </div>
+                        <img class="produto__imagem" src="assets/imagens/blusa.jpg">
+                        <p class="produto__descricao">Blusa Branca</p>
+                        <p class="produto__preco">R$ 45,00</p>
+                        <button class="produto__visualizar">Ver Produto</button>
+                    </div>
+                    <div class="produto__box">
+                        <div class="menu__editar__produto ocultar">
+                            <div class="menu__buttons">
+                                <button class="menu__editar__button"><img src="./assets/imagens/apagar-produto.png"></button>
+                                <button class="menu__editar__button"><img src="./assets/imagens/editar-produto.png"></button>
+                            </div>
+                        </div>
+                        <img class="produto__imagem" src="assets/imagens/blusa_regata_feminina.webp">
+                        <p class="produto__descricao">Blusa Regata</p>
+                        <p class="produto__preco">R$ 60,00</p>
+                        <button class="produto__visualizar">Ver Produto</button>
+                    </div>
+                    <div class="produto__box">
+                          <div class="menu__editar__produto ocultar">
+                            <div class="menu__buttons">
+                                <button class="menu__editar__button"><img src="./assets/imagens/apagar-produto.png"></button>
+                                <button class="menu__editar__button"><img src="./assets/imagens/editar-produto.png"></button>
+                            </div>
+                        </div>
+                        <img class="produto__imagem" src="assets/imagens/blusa_verão.webp">
+                        <p class="produto__descricao">Blusão Verão</p>
+                        <p class="produto__preco">R$ 80, 00</p>
+                        <button class="produto__visualizar">Ver Produto</button>
+                    </div>
+                    <div class="produto__box">
+                        <div class="menu__editar__produto ocultar">
+                            <div class="menu__buttons">
+                                <button class="menu__editar__button"><img src="./assets/imagens/apagar-produto.png"></button>
+                                <button class="menu__editar__button"><img src="./assets/imagens/editar-produto.png"></button>
+                            </div>
+                        </div>
+                        <img class="produto__imagem" src="assets/imagens/Blusa alça fina.webp">
+                        <p class="produto__descricao">Blusa de alça fina</p>
+                        <p class="produto__preco">R$100,00</p>
+                        <button class="produto__visualizar">Ver Produto</button>
+                    </div>
+                    <div class="produto__box">
+                        <div class="menu__editar__produto ocultar">
+                            <div class="menu__buttons">
+                                <button class="menu__editar__button"><img src="./assets/imagens/apagar-produto.png"></button>
+                                <button class="menu__editar__button"><img src="./assets/imagens/editar-produto.png"></button>
+                            </div>
+                        </div>
+                        <img class="produto__imagem" src="assets/imagens/top casual.webp">
+                        <p class="produto__descricao">Top Casual</p>
+                        <p class="produto__preco">R$ 35,00</p>
+                        <button class="produto__visualizar">Ver Produto</button>
+                    </div>
+                    <div class="produto__box">
+                          <div class="menu__editar__produto ocultar">
+                            <div class="menu__buttons">
+                                <button class="menu__editar__button"><img src="./assets/imagens/apagar-produto.png"></button>
+                                <button class="menu__editar__button"><img src="./assets/imagens/editar-produto.png"></button>
+                            </div>
+                        </div>
+                        <img class="produto__imagem" src="assets/imagens/blusa floral.jpg">
+                        <p class="produto__descricao">Blusa Floral</p>
+                        <p class="produto__preco">R$90,00</p>
+                        <button class="produto__visualizar">Ver Produto</button>
+                    </div>
+                </section>
+            </section>
+            <section class="container__diversos">
+                <div id="titulo__diversos" class="produto__div__topo">
+                    <h2 class="produto__titulo"> Diversos</h2>
+                    <button class="produto__ver-tudo" id="produto__diversos__ver-tudo">Ver tudo <img src="./assets/imagens/vector.png"></button>
+                </div>
+                <section class="produto__conteudo produto__diversos">
+                    <div class="produto__box">
+                        <div class="menu__editar__produto ocultar">
+                            <div class="menu__buttons">
+                                <button class="menu__editar__button"><img src="./assets/imagens/apagar-produto.png"></button>
+                                <button class="menu__editar__button"><img src="./assets/imagens/editar-produto.png"></button>
+                            </div>
+                        </div>
+                        <img class="produto__imagem" src="assets/imagens/almofada.pnj.webp">
+                        <p class="produto__descricao">Almofada Cavalo Marinho</p>
+                        <p class="produto__preco">R$ 165,00</p>
+                        <button class="produto__visualizar">Ver Produto</button>
+                    </div>
+                    <div class="produto__box">
+                        <div class="menu__editar__produto ocultar">
+                            <div class="menu__buttons">
+                                <button class="menu__editar__button"><img src="./assets/imagens/apagar-produto.png"></button>
+                                <button class="menu__editar__button"><img src="./assets/imagens/editar-produto.png"></button>
+                            </div>
+                        </div>
+                        <img class="produto__imagem" src="assets/imagens/ancora.pnj.webp">
+                        <p class="produto__descricao">Âncora</p>
+                        <p class="produto__preco">R$ 47,90</p>
+                        <button class="produto__visualizar">Ver Produto</button>
+                    </div>
+                    <div class="produto__box">
+                        <div class="menu__editar__produto ocultar">
+                            <div class="menu__buttons">
+                                <button class="menu__editar__button"><img src="./assets/imagens/apagar-produto.png"></button>
+                                <button class="menu__editar__button"><img src="./assets/imagens/editar-produto.png"></button>
+                            </div>
+                        </div>
+                        <img class="produto__imagem" src="assets/imagens/caneca praia.pnj.webp">
+                        <p class="produto__descricao">Caneca</p>
+                        <p class="produto__preco">R$ 30,00</p>
+                        <button class="produto__visualizar">Ver Produto</button>
+                    </div>
+                    <div class="produto__box">
+                          <div class="menu__editar__produto ocultar">
+                            <div class="menu__buttons">
+                                <button class="menu__editar__button"><img src="./assets/imagens/apagar-produto.png"></button>
+                                <button class="menu__editar__button"><img src="./assets/imagens/editar-produto.png"></button>
+                            </div>
+                        </div>
+                        <img class="produto__imagem" src="assets/imagens/enfeite.webp">
+                        <p class="produto__descricao">Enfeite de parede</p>
+                        <p class="produto__preco">R$ 45,00</p>
+                        <button class="produto__visualizar">Ver Produto</button>
+                    </div>
+                    <div class="produto__box">
+                        <div class="menu__editar__produto ocultar">
+                            <div class="menu__buttons">
+                                <button class="menu__editar__button"><img src="./assets/imagens/apagar-produto.png"></button>
+                                <button class="menu__editar__button"><img src="./assets/imagens/editar-produto.png"></button>
+                            </div>
+                        </div>
+                        <img class="produto__imagem" src="assets/imagens/estrela do mar.jpg">
+                        <p class="produto__descricao">Estrela do mar</p>
+                        <p class="produto__preco">R$ 55,00</p>
+                        <button class="produto__visualizar">Ver Produto</button>
+                    </div>
+                    <div class="produto__box">
+                        <div class="menu__editar__produto ocultar">
+                            <div class="menu__buttons">
+                                <button class="menu__editar__button"><img src="./assets/imagens/apagar-produto.png"></button>
+                                <button class="menu__editar__button"><img src="./assets/imagens/editar-produto.png"></button>
+                            </div>
+                        </div>
+                        <img class="produto__imagem" src="assets/imagens/oculos oval.webp">
+                        <p class="produto__descricao">Óculos Oval</p>
+                        <p class="produto__preco">R$ 35,00</p>
+                        <button class="produto__visualizar">Ver Produto</button>
+                    </div>   
+                </section>
+            </section>   
+        </section>
+        <section class="container__login ocultar">
+            <div class="form__login">
+                <h2 class="form__login__titulo">Iniciar Sessão</h2>
+                <input class="form__login__input__email" placeholder="Escreva o seu email." type="email">
+                <input class="form__login__input__senha"  placeholder="Escreva a sua senha." type="password">
+                <button class="form__login__button__entrar">Entrar</button>
+            </div>
+        </section>
+        <section class="container__adicionarProduto ocultar">
+            <form class="form__adicionarProduto">
+                <h2 class="form__adicionarProduto__titulo">Adicionar novo Produto</h2>
+                <input class="form__adicionarProduto__imagem input__adicionarProduto" placeholder="URL da imagem." type="text">
+                <input class="form__adicionarProduto__categoria input__adicionarProduto" placeholder="Categoria." type="text">
+                <input class="form__adicionarProduto__nome input__adicionarProduto" placeholder="Nome do produto." type="text"> 
+                <input class="form__adicionarProduto__preco input__adicionarProduto" placeholder="Preço do produto." type="text">
+                <input class="form__adicionarProduto__descricao input__adicionarProduto" placeholder="Descrição do produto." type="text">
+                <button class="form__adicionarProduto__enviar input__adicionarProduto">Adicionar Produto</button>
+            </form>
+        </section>
+        <section class="container__informacoes">
+            <div class="informacoes__div__logoElink">
+                <div class="informacoes__link">
+                    <a class="informacoes__link__iten" href="https://www.instagram.com/hopestoreac/">Quem somos</a>
+                    <a class="informacoes__link__iten" href="#">Programa de fidelidade</a>  
+                </div>
+            </div>
+            <div class="informacoes__div__iframe">
+                <iframe id="iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d234.70211017031892!2d-40.0415560106485!3d-19.745220453464274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb7d9a7f271506b%3A0x441bd412b470a942!2sModa%20Praia%20-%20Hope%20Store!5e0!3m2!1spt-BR!2sbr!4v1781308915684!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <form class="informacoes__div__contato">
+                <h3 class="contato__titulo">Fale conosco</h3>
+                <input class="contato__input contato__nome input__contato" type="text" placeholder="Nome" required>
+                <input class="contato__input contato__mensagem input__contato" type="text" placeholder="Deixe a sua mensagem" required>
+                <button class="contato__botao-enviar">Enviar mensagem</button>
+            </form>
+        </section>
+        <footer class="rodape">
+            Desenvolvido por Wesley Alves Santana
+        </footer>
+    </main>
+
+    <script src="./assets/js/formulario-login.js"></script>
+    <script src="./assets/js/adicionar-produto.js"></script>
+    <script src="./assets/js/mostrar-editar-produto.js"></script>
+    <script src="./assets/js/mostar-produto-oculto.js"></script>
+
+</body>
+</html>
